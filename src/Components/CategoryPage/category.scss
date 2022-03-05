@@ -1,0 +1,29 @@
+.category {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 100%;
+  background-color: #1092d7;
+  overflow: hidden;
+  justify-content: center;
+  .category_item {
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    color: rgb(85, 248, 85);
+  }
+}
+
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 13px;
+}
