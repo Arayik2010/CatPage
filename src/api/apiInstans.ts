@@ -9,3 +9,5 @@ export const requestOptions = {
 export const apiInstance = {
   baseUrl: "https://api.thecatapi.com/v1/",
 };
+
+
